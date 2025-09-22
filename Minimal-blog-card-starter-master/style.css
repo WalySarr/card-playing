@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.card {
+  background-color: #ffffff;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+.card-container {
+  padding: 16px;
+}
+.card-header {
+  width: 100%;
+  height: 152px;
+}
+.card-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card .card-tag {
+  background-color: #f2eafd;
+  margin: 16px 0;
+  padding: 4px 15px;
+  width: max-content;
+  border-radius: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #7c19ee;
+}
+.card .card-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #20293a;
+}
+.card .card-description {
+  color: #394150ac;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.card hr{
+    margin-top: 4px;
+    border: 1px solid #E5EAF0;
+}
+.card .card-author {
+  height: 40px;
+  padding: 16px;
+  margin: 20px 0 4px 0;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  font-size: 0.8em;
+  color: #394150;
+}
